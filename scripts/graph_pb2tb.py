@@ -15,6 +15,7 @@
 # limitations under the License.
 
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='1'
 import sys
 
 import tensorflow as tf

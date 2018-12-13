@@ -28,6 +28,7 @@ from __future__ import division
 from __future__ import print_function
 
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='1'
 import collections
 import re
 import numpy as np

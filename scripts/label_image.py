@@ -20,6 +20,8 @@ from __future__ import print_function
 import argparse
 import sys
 import time
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='1'
 
 import numpy as np
 import tensorflow as tf
